@@ -275,7 +275,7 @@ const Header = () => {
               <div className="flex items-center gap-1 sm:gap-2">
                 <Button
                   type="default"
-                  onClick={() => navigate("/register")}
+                  onClick={() => navigate("/signup")}
                   className="hidden sm:inline-flex border-blue-200 text-blue-600 hover:bg-blue-50 hover:border-blue-300 text-xs sm:text-sm py-1 sm:py-2 px-2 sm:px-4"
                 >
                   {t("sign_up")}
